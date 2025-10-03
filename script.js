@@ -47,16 +47,7 @@ function markAsValid(fieldId) {
 }
 
 
-function showNormalizedPreview(normalizedEmail) {
-    const previewElement = document.getElementById('email-normalized');
-    
-    if (normalizedEmail && isValidEmail(normalizedEmail)) {
-        previewElement.innerHTML = `<strong>Formato aceito:</strong> ${normalizedEmail}`;
-        previewElement.classList.add('show');
-    } else {
-        previewElement.classList.remove('show');
-    }
-}
+
 
 
 function announceToScreenReader(message) {
