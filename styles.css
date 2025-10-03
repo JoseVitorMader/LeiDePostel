@@ -27,7 +27,7 @@ body {
 
 .illustration-side {
     flex: 1;
-    background-image: url('velha-floresta-de-faias-no-outono_181624-29633.jpg');
+    background-image: url('./velha-floresta-de-faias-no-outono_181624-29633.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
